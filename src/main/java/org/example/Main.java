@@ -10,7 +10,7 @@ import org.example.servlet.WelcomeServlet;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Server server = new Server(9999);
+        Server server = new Server(443);
 
         ServletContextHandler handler = new ServletContextHandler();
         AuthService service = new AuthService();
