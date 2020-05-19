@@ -43,7 +43,7 @@ public class UsersDAO implements DAO<User> {
             final String query = "INSERT INTO siteusers (username,password) values (?,?) ";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1,"root");
-            preparedStatement.setString(1,"4813494D137E1631BBA301D5ACAB6E7BB7AA74CE1185D456565EF51D737677B2");
+            preparedStatement.setString(2,"4813494D137E1631BBA301D5ACAB6E7BB7AA74CE1185D456565EF51D737677B2");
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
