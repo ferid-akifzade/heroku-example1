@@ -10,7 +10,14 @@ import org.example.servlet.WelcomeServlet;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Server server = new Server(443);
+
+        int port;
+        try {
+            port = Integer.parseInt(System.getenv("PORT"));
+        } catch (NumberFormatException ex) {
+            port = 5000;
+        }
+        Server server = new Server(port);
 
         ServletContextHandler handler = new ServletContextHandler();
         AuthService service = new AuthService();
