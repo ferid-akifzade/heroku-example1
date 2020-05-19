@@ -7,11 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Heroku" uuid="48777ed2-704d-4d77-870a-df94e9fd9dfa">
+    <data-source source="LOCAL" name="Heroku" uuid="1bbc993a-1c8c-41c0-ae59-1ec2805624b5">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-34-200-101-236.compute-1.amazonaws.com:5432/dfppffuvsjsndl</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-52-44-166-58.compute-1.amazonaws.com:5432/d3iomdo1olcja5</jdbc-url>
     </data-source>
   </component>
 </project>
